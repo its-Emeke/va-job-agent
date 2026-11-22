@@ -1,0 +1,20 @@
+# secrets & local state
+.env
+jobs.db
+api/app/__pycache__/
+
+# legacy local creds (old Desktop OAuth, no longer used)
+backend/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# node
+node_modules/
+frontend/dist/
+
+# vercel
+.vercel
